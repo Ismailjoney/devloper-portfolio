@@ -1,18 +1,41 @@
+body{
+    margin:0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 21px;;
+}
 section{
     display:flex;
+    background-image:url(img/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width:50%;
     padding:5%;
 }
+.half-width img{
+    width:80%;
+}
 h1{
     font-size:50px;
+}
+h2{
+    font-size:43px;
 }
 .red-color{
     color:red;
 }
 .here-btn{
     text-decoration: none;
-    background-image: linear-gradient(rgba(22, 212, 32, 0.904),rgb(175, 37, 37));
+    background-image: linear-gradient(yellow,red);
+    padding:10px 40px;
+}
+#dream-big{
+    background-image:url(img/dream-bg.png);
+    background-position-x: right;
+}
+.download-btn{
+    background-image:linear-gradient(orange,blue);
+    color:white;
+    text-decoration:none;
     padding:10px 40px;
 }
