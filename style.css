@@ -3,10 +3,13 @@ body{
     font-family: 'Kanit', sans-serif;
     font-size: 21px;;
 }
-section{
+.flex-continer{
     display:flex;
     background-image:url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+section{
+    margin-bottom:150px;
 }
 .half-width{
     width:50%;
@@ -39,3 +42,19 @@ h2{
     text-decoration:none;
     padding:10px 40px;
 }
+.developer-bg-img{
+    background-image: url(img/exp-bg.png);
+    background-position-y: 70%;
+}
+
+ .Developer-Experience{
+    box-shadow:10px 10px 45px gray;
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    padding:7px 17px;
+
+ }
+ footer{
+    text-align:center;
+ }
